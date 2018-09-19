@@ -138,6 +138,10 @@ keytool -trustcacerts -keystore "%JAVA_HOME%\jre\lib\security\cacerts" -storepas
 
 **（注：当出现 java.io.FileNotFoundException... 时您可能要检查相关文件路径是否正确）**
 
+该方法至此已经完成，请检测是否成功。
+
+---------
+
 #### 2.2.程序运行时添加 Let's Encrypt 证书为信任证书
 您也可以在您的程序初始化或网络初始化时将 Let's Encrypt 证书添加进信任证书。
 
@@ -199,6 +203,9 @@ public class SSLExample {
 }
 ```
 
+该方法至此已经完成，请检测是否成功。
+
+---------
 #### 2.3.升级 JDK/JRE 版本
 您可以直接升级您的 JDK/JRE update 版本，7u111 及 8u101 之后已将 Let's Encrypt 证书加入信任。
 
@@ -210,6 +217,9 @@ public class SSLExample {
 
 ![Accept_License_Agreement.png](https://lets-encrypt.pek3a.qingstor.com/screenShots/Accept_License_Agreement.png)
 
+该方法至此已经完成，请检测是否成功。
+
+---------
 ### 2.4.检查是否成功
 重复操作上述 **1.1.检查您的 java 环境是否支持 Let's Encrypt 证书** 的内容即可。
 
