@@ -140,7 +140,7 @@ keytool -trustcacerts -keystore "%JAVA_HOME%\jre\lib\security\cacerts" -storepas
 
 该方法至此已经完成，请检测是否成功。
 
----------
+---
 
 #### 2.2.程序运行时添加 Let's Encrypt 证书为信任证书
 您也可以在您的程序初始化或网络初始化时将 Let's Encrypt 证书添加进信任证书。
@@ -205,7 +205,7 @@ public class SSLExample {
 
 该方法至此已经完成，请检测是否成功。
 
----------
+---
 #### 2.3.升级 JDK/JRE 版本
 您可以直接升级您的 JDK/JRE update 版本，7u111 及 8u101 之后已将 Let's Encrypt 证书加入信任。
 
@@ -219,7 +219,7 @@ public class SSLExample {
 
 该方法至此已经完成，请检测是否成功。
 
----------
+---
 ### 2.4.检查是否成功
 重复操作上述 **1.1.检查您的 java 环境是否支持 Let's Encrypt 证书** 的内容即可。
 
@@ -251,5 +251,7 @@ try {
     e.printStackTrace();
 }
 ```
+
+---
 
 在您的使用过程中有任何问题欢迎随时提工单和我们进行联系，祝您生活愉快，谢谢!
