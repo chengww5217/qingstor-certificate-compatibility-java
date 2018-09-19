@@ -85,7 +85,7 @@ echo $JAVA_HOME
 
 如未配置请自行搜索配置 Java 环境变量即可。
 
-- 下载  Let's Encrypt 根证书
+- 下载  Let's Encrypt 中间证书
 
 ```
 wget https://letsencrypt.org/certs/lets-encrypt-x3-cross-signed.pem
@@ -119,7 +119,7 @@ C:\Program Files (x86)\Java\jdk1.8.0_92
 
 如未配置请自行搜索配置 Java 环境变量即可。
 
-- 下载  Let's Encrypt 根证书
+- 下载  Let's Encrypt 中间证书
 
 ```
 wget https://letsencrypt.org/certs/lets-encrypt-x3-cross-signed.pem
